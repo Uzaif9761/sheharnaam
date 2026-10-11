@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Illustration of Mahatma Phule Mandai historic market with central octagonal basalt gothic tower, timber roof wings and market produce baskets">
+  <defs>
+    <linearGradient id="mp_bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFE3D0"/>
+      <stop offset="100%" stop-color="#E2D0B8"/>
+    </linearGradient>
+    <linearGradient id="mp_basalt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4A4744"/>
+      <stop offset="50%" stop-color="#605C57"/>
+      <stop offset="100%" stop-color="#3A3836"/>
+    </linearGradient>
+    <filter id="mp_grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.19  0 0 0 0 0.18  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" fill="url(#mp_bg)"/>
+
+  <!-- Morning market sky glow -->
+  <circle cx="320" cy="140" r="130" fill="#F6D8A8" opacity="0.35"/>
+
+  <!-- Mahatma Phule Mandai central gothic basalt tower (80-ft tower, opened 1886) -->
+  <!-- Tower base and central body -->
+  <rect x="260" y="110" width="120" height="170" fill="url(#mp_basalt)" stroke="#33312F" stroke-width="3"/>
+  <!-- Stone masonry coursing -->
+  <g stroke="#33312F" stroke-width="1" opacity="0.5">
+    <line x1="260" y1="135" x2="380" y2="135"/><line x1="260" y1="160" x2="380" y2="160"/>
+    <line x1="260" y1="185" x2="380" y2="185"/><line x1="260" y1="210" x2="380" y2="210"/>
+    <line x1="260" y1="235" x2="380" y2="235"/><line x1="260" y1="260" x2="380" y2="260"/>
+  </g>
+
+  <!-- Belfry Gothic Arched Windows in octagonal tower -->
+  <path d="M285 180 A12 18 0 0 1 315 180 V210 H285 Z" fill="#33312F"/>
+  <path d="M325 180 A12 18 0 0 1 355 180 V210 H325 Z" fill="#33312F"/>
+  <!-- Louvers inside gothic arches -->
+  <g stroke="#F2E6D5" stroke-width="1.5">
+    <line x1="288" y1="188" x2="312" y2="188"/><line x1="288" y1="195" x2="312" y2="195"/><line x1="288" y1="202" x2="312" y2="202"/>
+    <line x1="328" y1="188" x2="352" y2="188"/><line x1="328" y1="195" x2="352" y2="195"/><line x1="328" y1="202" x2="352" y2="202"/>
+  </g>
+
+  <!-- Clock face on tower -->
+  <circle cx="320" cy="140" r="18" fill="#F9F6F0" stroke="#33312F" stroke-width="2.5"/>
+  <circle cx="320" cy="140" r="15" fill="none" stroke="#AD6046" stroke-width="1"/>
+  <line x1="320" y1="140" x2="320" y2="130" stroke="#33312F" stroke-width="2"/>
+  <line x1="320" y1="140" x2="328" y2="140" stroke="#33312F" stroke-width="1.5"/>
+
+  <!-- Steep Gothic Spire / Steeple roof -->
+  <path d="M250 110 L320 25 L390 110 Z" fill="#AD6046" stroke="#33312F" stroke-width="3"/>
+  <line x1="320" y1="25" x2="320" y2="10" stroke="#33312F" stroke-width="3"/>
+  <!-- Weather vane / finial -->
+  <path d="M312 10 H328 M320 5 V15 M322 8 L328 10 L322 12 Z" stroke="#C87A54" stroke-width="2" fill="none"/>
+
+  <!-- Radiating Market Wings (Left & Right tiled pitched roofs) -->
+  <path d="M40 210 L260 170 V280 L40 280 Z" fill="#8C4B36" stroke="#33312F" stroke-width="3"/>
+  <path d="M380 170 L600 210 V280 L380 280 Z" fill="#8C4B36" stroke="#33312F" stroke-width="3"/>
+  <!-- Clerestory louvers along market wings -->
+  <g fill="#F2E6D5" stroke="#33312F" stroke-width="1.5">
+    <rect x="70" y="225" width="25" height="35"/><rect x="115" y="220" width="25" height="35"/>
+    <rect x="160" y="215" width="25" height="35"/><rect x="205" y="210" width="25" height="35"/>
+    <rect x="410" y="210" width="25" height="35"/><rect x="455" y="215" width="25" height="35"/>
+    <rect x="500" y="220" width="25" height="35"/><rect x="545" y="225" width="25" height="35"/>
+  </g>
+
+  <!-- Market street level stone platform -->
+  <rect x="0" y="280" width="640" height="120" fill="#E8D9C0" stroke="#33312F" stroke-width="3"/>
+
+  <!-- Wholesale market stalls, crates and vegetable baskets (Topli) -->
+  <!-- Stacking fruit crates -->
+  <rect x="60" y="310" width="70" height="25" fill="#C89B62" stroke="#5E3E2F" stroke-width="2"/>
+  <rect x="65" y="290" width="60" height="22" fill="#D8A86C" stroke="#5E3E2F" stroke-width="2"/>
+  <!-- Produce basket 1 (Marigold & lemons) -->
+  <ellipse cx="200" cy="345" rx="42" ry="18" fill="#AD6046" stroke="#33312F" stroke-width="2"/>
+  <circle cx="190" cy="335" r="9" fill="#E3B25C"/><circle cx="210" cy="336" r="8" fill="#AD6046"/><circle cx="200" cy="330" r="8" fill="#E3B25C"/>
+  <!-- Produce basket 2 (Fresh greens) -->
+  <ellipse cx="320" cy="350" rx="55" ry="22" fill="#8C4B36" stroke="#33312F" stroke-width="2.5"/>
+  <path d="M280 345 C300 320 340 320 360 345 Z" fill="#37452C"/>
+  <!-- Produce basket 3 (Onions / Spices) -->
+  <ellipse cx="440" cy="345" rx="44" ry="19" fill="#AD6046" stroke="#33312F" stroke-width="2"/>
+  <circle cx="430" cy="335" r="8" fill="#C87A54"/><circle cx="450" cy="334" r="8" fill="#F2E6D5"/><circle cx="440" cy="328" r="8" fill="#C87A54"/>
+  <!-- Crate Right -->
+  <rect x="510" y="305" width="75" height="26" fill="#C89B62" stroke="#5E3E2F" stroke-width="2"/>
+
+  <!-- Editorial sign badge -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="135" height="38" fill="#F9F6F0" stroke="#33312F" stroke-width="2"/>
+    <text x="67" y="16" font-family="'Montserrat', sans-serif" font-size="8" font-weight="700" fill="#33312F" text-anchor="middle" letter-spacing="1">PHULE MANDAI</text>
+    <text x="67" y="30" font-family="'Montserrat', sans-serif" font-size="7.5" fill="#AD6046" text-anchor="middle">OCTAGONAL GOTHIC TOWER</text>
+  </g>
+
+  <rect width="640" height="400" filter="url(#mp_grain)"/>
+</svg>

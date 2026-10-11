@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>overflow-test</title></head>
+<body>
+<pre id="results">RUNNING</pre>
+<iframe id="test-frame" src="/index.html" style="border:none;"></iframe>
+<script>
+(function() {
+  var widths = [360, 390, 768, 1024, 1440];
+  var frame = document.getElementById("test-frame");
+  var out = [];
+  var idx = 0;
+
+  function testNext() {
+    if (idx >= widths.length) {
+      document.getElementById("results").textContent = "COMPLETED:\n" + out.join("\n");
+      return;
+    }
+    var w = widths[idx];
+    frame.style.width = w + "px";
+    frame.style.height = "1200px";
+    setTimeout(function() {
+      try {
+        var doc = frame.contentDocument || frame.contentWindow.document;
+        var de = doc.documentElement;
+        var b = doc.body;
+        var sw = Math.max(de.scrollWidth, b.scrollWidth);
+        var cw = frame.contentWindow.innerWidth;
+        var diff = sw - cw;
+        var status = (diff <= 1) ? "OK (no horizontal overflow)" : ("OVERFLOW: +" + diff + "px");
+        out.push(w + "px: scrollWidth=" + sw + ", clientWidth=" + cw + " -> " + status);
+      } catch (e) {
+        out.push(w + "px: error " + e.message);
+      }
+      idx++;
+      testNext();
+    }, 400);
+  }
+
+  frame.onload = function() {
+    setTimeout(testNext, 300);
+  };
+})();
+</script>
+</body>
+</html>

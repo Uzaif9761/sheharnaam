@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Illustration of Tambat Ali workshop with hand-beaten copper bamba boiler, anvil, wooden mallet and glowing copper texture">
+  <defs>
+    <linearGradient id="ta_bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2E6D5"/>
+      <stop offset="100%" stop-color="#E2D0B6"/>
+    </linearGradient>
+    <linearGradient id="ta_copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8C4B36"/>
+      <stop offset="35%" stop-color="#C87A54"/>
+      <stop offset="70%" stop-color="#D98A62"/>
+      <stop offset="100%" stop-color="#7A4030"/>
+    </linearGradient>
+    <linearGradient id="ta_brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B8863A"/>
+      <stop offset="50%" stop-color="#E3C36A"/>
+      <stop offset="100%" stop-color="#9C6F2A"/>
+    </linearGradient>
+    <filter id="ta_grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.19  0 0 0 0 0.18  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" fill="url(#ta_bg)"/>
+
+  <!-- Workshop backdrop: wooden timber posts and brickwork -->
+  <rect x="30" y="20" width="24" height="380" fill="#7A4030" stroke="#33312F" stroke-width="2"/>
+  <rect x="586" y="20" width="24" height="380" fill="#7A4030" stroke="#33312F" stroke-width="2"/>
+  <line x1="30" y1="60" x2="610" y2="60" stroke="#33312F" stroke-width="5"/>
+  <line x1="30" y1="75" x2="610" y2="75" stroke="#8C4B36" stroke-width="2"/>
+
+  <!-- Hanging copper and brass tools / vessels in background -->
+  <path d="M120 75 v45" stroke="#33312F" stroke-width="2"/>
+  <circle cx="120" cy="135" r="18" fill="url(#ta_brass)" stroke="#33312F" stroke-width="2"/>
+  <path d="M190 75 v60" stroke="#33312F" stroke-width="2"/>
+  <ellipse cx="190" cy="150" rx="15" ry="20" fill="url(#ta_copper)" stroke="#33312F" stroke-width="2"/>
+
+  <!-- Workshop stone floor -->
+  <rect x="0" y="320" width="640" height="80" fill="#4A4744"/>
+  <line x1="0" y1="320" x2="640" y2="320" stroke="#33312F" stroke-width="4"/>
+
+  <!-- Tree trunk base anvil block (Kunda) -->
+  <path d="M110 350 L125 210 L235 210 L250 350 Z" fill="#5E3E2F" stroke="#33312F" stroke-width="3"/>
+  <!-- Cast iron anvil horn -->
+  <path d="M100 210 L150 185 L225 185 L245 210 Z" fill="#33312F"/>
+  <path d="M90 200 L115 192 L115 210 Z" fill="#667B82"/>
+
+  <!-- Traditional Copper Bamba (Water Boiler with center flue) -->
+  <g id="bamba">
+    <!-- Base rim -->
+    <ellipse cx="370" cy="320" rx="85" ry="22" fill="#7A4030" stroke="#33312F" stroke-width="3"/>
+    <!-- Main cylindrical copper body -->
+    <path d="M285 170 C285 130 455 130 455 170 L455 320 C455 335 285 335 285 320 Z" fill="url(#ta_copper)" stroke="#33312F" stroke-width="3.5"/>
+    <!-- Mathar Kaam dimpled hand-beaten facets (pattern of hammer marks) -->
+    <g fill="#F5C09B" opacity="0.6">
+      <ellipse cx="320" cy="175" rx="5" ry="4"/><ellipse cx="340" cy="173" rx="5" ry="4"/><ellipse cx="360" cy="175" rx="5" ry="4"/><ellipse cx="380" cy="173" rx="5" ry="4"/><ellipse cx="400" cy="175" rx="5" ry="4"/><ellipse cx="420" cy="173" rx="5" ry="4"/>
+      <ellipse cx="310" cy="200" rx="6" ry="4.5"/><ellipse cx="330" cy="198" rx="6" ry="4.5"/><ellipse cx="350" cy="200" rx="6" ry="4.5"/><ellipse cx="370" cy="198" rx="6" ry="4.5"/><ellipse cx="390" cy="200" rx="6" ry="4.5"/><ellipse cx="410" cy="198" rx="6" ry="4.5"/><ellipse cx="430" cy="200" rx="6" ry="4.5"/>
+      <ellipse cx="315" cy="225" rx="6" ry="4.5"/><ellipse cx="335" cy="223" rx="6" ry="4.5"/><ellipse cx="355" cy="225" rx="6" ry="4.5"/><ellipse cx="375" cy="223" rx="6" ry="4.5"/><ellipse cx="395" cy="225" rx="6" ry="4.5"/><ellipse cx="415" cy="223" rx="6" ry="4.5"/>
+      <ellipse cx="310" cy="250" rx="6" ry="4.5"/><ellipse cx="330" cy="248" rx="6" ry="4.5"/><ellipse cx="350" cy="250" rx="6" ry="4.5"/><ellipse cx="370" cy="248" rx="6" ry="4.5"/><ellipse cx="390" cy="250" rx="6" ry="4.5"/><ellipse cx="410" cy="248" rx="6" ry="4.5"/><ellipse cx="430" cy="250" rx="6" ry="4.5"/>
+      <ellipse cx="320" cy="275" rx="5" ry="4"/><ellipse cx="340" cy="273" rx="5" ry="4"/><ellipse cx="360" cy="275" rx="5" ry="4"/><ellipse cx="380" cy="273" rx="5" ry="4"/><ellipse cx="400" cy="275" rx="5" ry="4"/><ellipse cx="420" cy="273" rx="5" ry="4"/>
+      <ellipse cx="330" cy="298" rx="5" ry="4"/><ellipse cx="350" cy="296" rx="5" ry="4"/><ellipse cx="370" cy="298" rx="5" ry="4"/><ellipse cx="390" cy="296" rx="5" ry="4"/><ellipse cx="410" cy="298" rx="5" ry="4"/>
+    </g>
+    <!-- Central chimney / flue outlet -->
+    <rect x="350" y="85" width="40" height="60" fill="#7A4030" stroke="#33312F" stroke-width="2.5"/>
+    <ellipse cx="370" cy="85" rx="20" ry="7" fill="#33312F"/>
+    <!-- Brass handles (Kadi) -->
+    <path d="M285 220 C265 220 265 250 285 250" fill="none" stroke="url(#ta_brass)" stroke-width="7" stroke-linecap="round"/>
+    <path d="M455 220 C475 220 475 250 455 250" fill="none" stroke="url(#ta_brass)" stroke-width="7" stroke-linecap="round"/>
+    <!-- Brass water tap spigot -->
+    <path d="M370 290 h35 v12 h-35 Z" fill="url(#ta_brass)" stroke="#33312F" stroke-width="1.5"/>
+    <circle cx="400" cy="290" r="5" fill="url(#ta_brass)"/>
+  </g>
+
+  <!-- Traditional brass water pot (Ghagar) beside it -->
+  <ellipse cx="510" cy="335" rx="50" ry="16" fill="#8A5A32"/>
+  <circle cx="510" cy="285" r="42" fill="url(#ta_brass)" stroke="#33312F" stroke-width="3"/>
+  <path d="M488 245 h44 l-4 -15 h-36 Z" fill="url(#ta_brass)" stroke="#33312F" stroke-width="2"/>
+
+  <!-- Artisan shaping hammer / wooden mallet on anvil -->
+  <g transform="rotate(22 210 200)">
+    <rect x="180" y="192" width="90" height="10" rx="3" fill="#B8863A" stroke="#33312F" stroke-width="2"/>
+    <rect x="160" y="180" width="28" height="34" rx="4" fill="#33312F" stroke="#AD6046" stroke-width="2"/>
+  </g>
+
+  <!-- Editorial craft badge -->
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="125" height="38" fill="#F9F6F0" stroke="#C87A54" stroke-width="2"/>
+    <text x="62" y="16" font-family="'Montserrat', sans-serif" font-size="8.5" font-weight="700" fill="#AD6046" text-anchor="middle" letter-spacing="1">TAMBAT ALI</text>
+    <text x="62" y="30" font-family="'Montserrat', sans-serif" font-size="7.5" fill="#33312F" text-anchor="middle">MATHAR KAAM CRAFT</text>
+  </g>
+
+  <rect width="640" height="400" filter="url(#ta_grain)"/>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Illustration of Vaidya Upahar Gruha historic breakfast counter with bowl of green chilli misal, pav, sprouted beans and vintage wooden booth">
+  <defs>
+    <linearGradient id="vy_bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F7EEDF"/>
+      <stop offset="100%" stop-color="#EADBCE"/>
+    </linearGradient>
+    <filter id="vy_grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.19  0 0 0 0 0.18  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+  <rect width="640" height="400" fill="url(#vy_bg)"/>
+
+  <!-- Century-old Peth Upahar Gruha wooden booth paneling -->
+  <rect x="40" y="20" width="560" height="150" fill="#E3D3BD" stroke="#33312F" stroke-width="3"/>
+  <g stroke="#8C4B36" stroke-width="2">
+    <line x1="140" y1="20" x2="140" y2="170"/><line x1="240" y1="20" x2="240" y2="170"/>
+    <line x1="400" y1="20" x2="400" y2="170"/><line x1="500" y1="20" x2="500" y2="170"/>
+    <rect x="60" y="35" width="60" height="115" fill="none"/>
+    <rect x="160" y="35" width="60" height="115" fill="none"/>
+    <rect x="420" y="35" width="60" height="115" fill="none"/>
+    <rect x="520" y="35" width="60" height="115" fill="none"/>
+  </g>
+
+  <!-- Vintage Slate menu board on the wall -->
+  <rect x="255" y="35" width="130" height="85" fill="#33312F" stroke="#AD6046" stroke-width="2.5"/>
+  <text x="320" y="58" font-family="'Playfair Display', serif" font-size="13" font-weight="700" fill="#F2E6D5" text-anchor="middle">वैद्य उपहार गृह</text>
+  <text x="320" y="76" font-family="'Montserrat', sans-serif" font-size="8.5" fill="#E3B25C" text-anchor="middle">BUDHWAR PETH · 1910</text>
+  <text x="320" y="96" font-family="'Montserrat', sans-serif" font-size="10" font-weight="600" fill="#F9F6F0" text-anchor="middle">हिरवी मिसळ</text>
+  <line x1="275" y1="104" x2="365" y2="104" stroke="#667B82" stroke-width="1"/>
+
+  <!-- Dining table surface -->
+  <rect x="0" y="170" width="640" height="230" fill="#F2E6D5" stroke="#33312F" stroke-width="3"/>
+  <line x1="0" y1="170" x2="640" y2="170" stroke="#7A4030" stroke-width="6"/>
+
+  <!-- Centerpiece: Famous Green-Chilli Misal (Hirvi Misal) Bowl -->
+  <!-- Steel plate / katori underliner -->
+  <ellipse cx="280" cy="305" rx="125" ry="58" fill="#E8D9C0" stroke="#33312F" stroke-width="3"/>
+  <ellipse cx="280" cy="298" rx="115" ry="52" fill="#F9F6F0" stroke="#AD6046" stroke-width="2"/>
+
+  <!-- The Misal Bowl -->
+  <ellipse cx="280" cy="285" rx="88" ry="42" fill="#FFFFFF" stroke="#33312F" stroke-width="3"/>
+  <!-- Iconic green spiced gravy (Hirva rassa) -->
+  <ellipse cx="280" cy="282" rx="80" ry="36" fill="#3D5A2E"/>
+  <!-- Sprouted moth beans and potato base -->
+  <ellipse cx="280" cy="280" rx="66" ry="28" fill="#4E6E38"/>
+  <!-- Golden crisp farsan / sev top layer -->
+  <ellipse cx="280" cy="275" rx="55" ry="22" fill="#E3B25C"/>
+  <g fill="#D49A38">
+    <circle cx="265" cy="273" r="3"/><circle cx="285" cy="270" r="3"/><circle cx="295" cy="274" r="3"/><circle cx="275" cy="278" r="3"/>
+  </g>
+  <!-- Finely chopped onions, fresh coriander garnish & green chilli slice -->
+  <g fill="#F9F6F0">
+    <circle cx="260" cy="272" r="2.5"/><circle cx="270" cy="268" r="2.5"/><circle cx="290" cy="271" r="2.5"/><circle cx="300" cy="275" r="2.5"/>
+  </g>
+  <path d="M282 267 C288 262 292 265 296 268" stroke="#25421A" stroke-width="3" fill="none"/>
+  <!-- Lemon wedge on rim -->
+  <path d="M205 280 A12 12 0 0 1 222 268 Z" fill="#E3C36A" stroke="#33312F" stroke-width="1.5"/>
+
+  <!-- Traditional ladi pav pair on butter paper -->
+  <g transform="translate(420, 240)">
+    <polygon points="0,40 160,10 170,85 10,115" fill="#F9F6F0" stroke="#33312F" stroke-width="1.5"/>
+    <!-- Two pav buns -->
+    <rect x="25" y="35" width="55" height="52" rx="14" fill="#C89B62" stroke="#5E3E2F" stroke-width="2.5"/>
+    <rect x="85" y="32" width="55" height="52" rx="14" fill="#C89B62" stroke="#5E3E2F" stroke-width="2.5"/>
+    <line x1="80" y1="38" x2="80" y2="84" stroke="#8C4B36" stroke-width="2"/>
+  </g>
+
+  <!-- Brass cutting chai glass / water tumbler -->
+  <path d="M90 230 L98 320 L135 320 L143 230 Z" fill="#D89B54" stroke="#33312F" stroke-width="2.5"/>
+  <ellipse cx="116.5" cy="230" rx="26.5" ry="8" fill="#F2E6D5" stroke="#33312F" stroke-width="2"/>
+
+  <!-- Editorial location badge -->
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="135" height="38" fill="#F9F6F0" stroke="#37452C" stroke-width="2"/>
+    <text x="67" y="16" font-family="'Montserrat', sans-serif" font-size="8" font-weight="700" fill="#37452C" text-anchor="middle" letter-spacing="1">HISTORIC PETH</text>
+    <text x="67" y="30" font-family="'Montserrat', sans-serif" font-size="7.5" fill="#33312F" text-anchor="middle">BUDHWAR PETH · MISAL</text>
+  </g>
+
+  <rect width="640" height="400" filter="url(#vy_grain)"/>
+</svg>
