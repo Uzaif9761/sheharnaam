@@ -170,5 +170,5 @@ Re-ran on the current workspace (all passing):
   anchors) — 20/20 PASS.
 - Horizontal-overflow scan at 360 / 390 / 768 / 1024 / 1280 / 1920 px — OK.
 
-No public URL has been published from this workspace yet — follow §2 above;
-once live, add the confirmed URL here: `_____________________`.
+Public URL published on GitHub Pages:
+https://uzaif9761.github.io/sheharnaam/
